@@ -1,0 +1,27 @@
+.divStyle {
+  font-family: 'sans-serif';
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionStyle {
+  padding: 1rem;
+}
+
+.imageStyle {
+  width: 150px;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.h2Style {
+  font-family: 'Arial';
+  font-size: 35px;
+}
+
+.pStyle {
+  font-family: 'Arial';
+  font-size: 20px;
+}
