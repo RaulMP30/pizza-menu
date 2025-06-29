@@ -1,27 +1,79 @@
-.divStyle {
-  font-family: 'sans-serif';
+.ownerPage {
+  font-family: 'Arial', sans-serif;
   max-width: 800px;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-}
-
-.sectionStyle {
   padding: 1rem;
 }
 
-.imageStyle {
+.ownerPhoto {
   width: 150px;
-  border-radius: 8px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.ownerInfo {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.movieList {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.favoriteMovies {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.movieItem {
+  width: 100%;
+  background-color: #0b2e61;
+  color: aliceblue;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+.formulario {
+  margin-bottom: 10px;
+  display: flex;
   justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
 }
 
-.h2Style {
-  font-family: 'Arial';
-  font-size: 35px;
+.input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 60%;
+  min-width: 200px;
 }
 
-.pStyle {
-  font-family: 'Arial';
-  font-size: 20px;
+.botonAgregar {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #1650f0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botonAgregar:hover {
+  background-color: #2908b8;
 }
